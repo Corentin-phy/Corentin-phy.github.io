@@ -1,0 +1,44 @@
+---
+title: "Beyond"
+toc: false
+---
+
+<p class="personal-lede">
+A short page about what I do when I am not doing physics, and about the few things I read, look at, and practise that feel, from a certain angle, like they are trying to do the same work.
+</p>
+
+## At the keyboard
+
+I have practised piano for seven years, less in recent months than I would like. My repertoire ran toward the German Romantics : Schumann, Brahms, Liszt and Chopin; the last piece I worked on, and the one I most miss, is Chopin's *Fantaisie-Impromptu*. I do not claim a high level. I claim only that I know what it is to spend a long time on a small phrase until something that was opaque becomes, briefly, transparent. It is the same patience I try to bring to a derivation that refuses, at first, to settle.
+
+## In front of a painting
+
+I look at painting carefully. Two painters I keep returning to are Henri Matisse, for what colour can do once it stops describing things and begins to stand for them, and František Kupka, whose *Autour d'un point*, a slow circular composition built up over nearly two decades, feels to me like a cosmology in its own right, an image of how concentric structures can hold a centre that is itself empty. I do not think this is a coincidence. The early twentieth century discovered, in physics and in painting at almost the same moment, that the rules were stranger than anyone had imagined; and I find it useful, when the equations get hard, to remember that the people who first wrote them were also the people who first saw their world this way.
+
+I have a softer spot than I would have predicted for the late Impressionists and early Modernists — Vuillard, Bonnard, Hammershøi — for the way they make a quiet domestic room hold as much weight as a battle scene. Restraint, in painting as in writing, is its own kind of statement.
+
+## In words, in public
+
+I take rhetoric seriously, partly because I had reason to. I came second in a French national eloquence competition at the end of high school (2020), and since the start of M1 I have been part of the eloquence workshop run by Mission Culture at Université Lyon 1, with a festival programmed for spring 2026. The discipline appeals to me for the same reason cosmology does : both demand that you say something true about something difficult without losing the listener.
+
+## On the mat
+
+I have practised self-defense (Brazilian jiu-jitsu) for several years, mostly as a student. On a handful of occasions I have helped guide younger members through warm-ups or drills, but I would not describe myself as a coach; the role taught me more than it transmitted. What I take from the discipline is technical rather than martial : the body learns by repetition, by adjustment, by slowing down. It is the same loop as the keyboard, and the same loop, in the end, as the desk.
+
+## On the page
+
+I read in the history and philosophy of science alongside the technical work. The pages I underline most often are those that take seriously the question of how a question came to be askable in the first place : what changes, in a community of practice, before a problem can even be posed. I think this is part of the science, not separate from it, and I think it is one of the things that makes the work worth doing.
+
+I am also slowly learning Italian, partly with Padova in mind, partly because the language seems to me to carry an unusual amount of physics history in its everyday vocabulary.
+
+## In the room
+
+I take discrimination seriously, in academic spaces and elsewhere, and I try, in the corners I occupy, to push back against it. Science is shaped by who is in the room; I would like more people to be in it.
+
+## Memberships
+
+I am a member of the [Société Française de Physique](https://www.sfpnet.fr/) (since 2023).
+
+---
+
+*This page will grow over time. For now, it is an introduction.*

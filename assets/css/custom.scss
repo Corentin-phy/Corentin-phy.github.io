@@ -1,0 +1,257 @@
+/*-- scss:defaults --*/
+
+// ─── Palette ─────────────────────────────────────────────────────────────────
+//
+//   Deep cobalt-night for the page frame and the parallax starfield in the
+//   gutters. A warm parchment column sits at the centre, carrying the actual
+//   reading surface. Cobalt is the single accent and runs from the dark
+//   margins through the headings, links and small-caps labels.
+//
+$cm-night:          #0c1525;       // deep cobalt-night — page frame, gutters
+$cm-night-soft:     #162038;       // softer night — secondary surfaces (footer)
+$cm-paper:          #faf7f0;       // warm parchment — content column
+$cm-paper-soft:     #efe8d8;       // slightly darker cream — cards / inline code
+$cm-rule:           #ddd6c4;       // warm rule line on paper
+$cm-frame-rule:     #1a2540;       // thin border between paper and night
+$cm-cobalt:         #1f4794;       // cobalt accent — links, labels, ornament
+$cm-cobalt-deep:    #143372;       // deeper cobalt on hover
+$cm-ochre:          #b67e2a;       // ochre — link underline on hover
+$cm-text:           #1a1a1a;       // body text on paper
+$cm-text-muted:     #7a6f5c;       // muted meta text on paper
+$cm-text-on-night:  #d8d3c4;       // body text on dark frame (navbar / footer)
+$cm-text-on-night-muted: #8a9bb4;  // muted text on dark frame
+
+$body-bg:           $cm-night;
+$body-color:        $cm-text;
+$link-color:        $cm-cobalt;
+$link-hover-color:  $cm-cobalt-deep;
+
+// ─── Typography ──────────────────────────────────────────────────────────────
+$font-family-sans-serif: 'Inter', system-ui, sans-serif;
+$font-family-serif:      'EB Garamond', Georgia, serif;
+$font-size-base:         1.05rem;
+$line-height-base:       1.8;
+
+// ─── Navbar ──────────────────────────────────────────────────────────────────
+$navbar-bg:          $cm-night;
+$navbar-fg:          $cm-text-on-night;
+$navbar-font-family: 'Inter', sans-serif;
+
+// ─── Headings ────────────────────────────────────────────────────────────────
+$headings-font-family: 'EB Garamond', Georgia, serif;
+$headings-font-weight: 500;
+$headings-color:       $cm-text;
+
+// ─── Borders / misc ──────────────────────────────────────────────────────────
+$border-color:     $cm-rule;
+$hr-border-color:  $cm-rule;
+
+/*-- scss:rules --*/
+
+// ─── Global page frame ───────────────────────────────────────────────────────
+//
+//   The <body> is the dark frame; the starfield <canvas> sits below content
+//   via position: fixed. The centred paper column lives inside .page-body
+//   (or .home-hero on the homepage) and covers the stars in the middle.
+//
+html, body {
+  background: #0c1525;
+}
+
+body {
+  position: relative;
+}
+
+// Starfield canvas — appended by assets/js/starfield.js
+canvas.cm-starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  display: block;
+}
+
+// All content sits above the starfield
+main, .navbar, .page-footer, .content, #quarto-content {
+  position: relative;
+  z-index: 1;
+}
+
+// ─── Navbar on dark frame ────────────────────────────────────────────────────
+.navbar {
+  background: #0c1525 !important;
+  border-bottom: 1px solid #1a2540;
+  padding: 1rem 0;
+
+  .navbar-brand {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #f5f0e2 !important;
+  }
+
+  .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #b8bdcc !important;
+    padding: 0.3rem 0.9rem !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #f5f0e2 !important;
+    }
+
+    &.active {
+      color: #f5f0e2 !important;
+      font-weight: 500;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: #1a2540;
+    color: #d8d3c4;
+  }
+}
+
+// ─── Page body — the paper column ────────────────────────────────────────────
+//
+//   This is the single column of warm parchment that sits over the dark
+//   starfield. All inner pages render into this surface.
+//
+.page-body,
+#quarto-content > main.content {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #faf7f0;
+  color: #1a1a1a;
+  padding: 3.5rem 3rem 4rem;
+  border-left: 1px solid #1a2540;
+  border-right: 1px solid #1a2540;
+  min-height: calc(100vh - 200px);
+  box-sizing: border-box;
+}
+
+// On the homepage Quarto omits .page-body in some configurations; ensure the
+// inner main wrapper takes the same paper styling.
+main.content {
+  background: #faf7f0;
+}
+
+// ─── Body text inside the paper column ───────────────────────────────────────
+.page-body p,
+.page-body li,
+.page-body blockquote,
+main.content p,
+main.content li,
+main.content blockquote {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.12rem;
+  line-height: 1.78;
+  color: #1d1f2c;
+}
+
+// ─── Headings ────────────────────────────────────────────────────────────────
+h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3em;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #ddd6c4;
+  color: #1a1a1a;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 1.8em;
+  color: #1a1a1a;
+}
+
+// ─── Links ───────────────────────────────────────────────────────────────────
+a {
+  color: #1f4794;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    color: #143372;
+    border-bottom-color: #b67e2a;
+    text-decoration: none;
+  }
+}
+
+// ─── Footer on dark frame ────────────────────────────────────────────────────
+.page-footer,
+.nav-footer {
+  background: #0c1525 !important;
+  border-top: 1px solid #1a2540;
+  color: #8a9bb4;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  padding: 1.5rem 0;
+
+  a {
+    color: #b8bdcc;
+
+    &:hover {
+      color: #f5f0e2;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+// ─── Blockquote ──────────────────────────────────────────────────────────────
+blockquote {
+  border-left: 2px solid #1f4794;
+  padding-left: 1.4rem;
+  margin-left: 0;
+  color: #4e483a;
+  font-style: italic;
+}
+
+// ─── Code ────────────────────────────────────────────────────────────────────
+code {
+  font-size: 0.88em;
+  background: #efe8d8;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  color: #1a1a1a;
+}
+
+// ─── Horizontal rule on paper ────────────────────────────────────────────────
+hr {
+  border: none;
+  border-top: 1px solid #ddd6c4;
+  margin: 2.5rem 0;
+}
+
+// ─── Responsive: collapse the gutters on narrow viewports ────────────────────
+//
+//   Below ~760px the paper column fills the viewport, the dark gutters
+//   disappear and the starfield only shows in the navbar/footer strips.
+//
+@media (max-width: 760px) {
+  .page-body,
+  #quarto-content > main.content {
+    padding: 2rem 1.25rem 3rem;
+    border-left: none;
+    border-right: none;
+  }
+}

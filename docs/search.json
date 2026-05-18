@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Corentin Mary",
+    "section": "",
+    "text": "Corentin Mary\n\n\n\n\nM1 Fundamental Physics · Cosmology track · Université Claude Bernard Lyon 1\n\n\nI work on cosmology and subatomic physics : neutrinos, gravitational waves, and the physics of the early universe. I came to physics through a longer route than most, and that detour has shaped what I look for : questions about the deep structure of the real, approached at the largest scale we are able to name.\n\n\n✉ Email ↗ GitHub 📄 CV\n\n\n\n\n\nCurrently — first-year master’s student in fundamental physics (cosmology track) at Université Claude Bernard Lyon 1, preparing a research internship on neutrino cosmology at Università di Padova under Daniele Bertacca (June – July 2026).\n\n\nApplying — M2 research programs in cosmology and subatomic physics for autumn 2026."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Projects",
+    "section": "",
+    "text": "A record of my research activities so far : formal internships, independent numerical projects, and a co-authored review.\n\n\n\nImpact of Neutrino Physical Properties on Cosmological Observables Upcoming\n\n\nDipartimento di Fisica e Astronomia “Galileo Galilei”, Università di Padova · June - July 2026 · Supervisor: Daniele Bertacca\n\nNeutrinos are massive, we know this from oscillation experiments, but their absolute mass scale and hierarchy remain open. This M1 internship will investigate how neutrino physical properties (masses, number of effective species, thermal history) leave observable signatures in the large-scale structure of the universe and in the CMB power spectra. The work sits within the framework of cosmological perturbation theory and Boltzmann codes, in collaboration with the group of Prof. Bertacca at the Dipartimento di Fisica e Astronomia (DFA), Università di Padova.\n\nSupervisor’s page ↗\n\n\n\n\nKM3NeT Detector Simulation Internship\n\n\nIPHC Strasbourg · February – April 2024\n\nKM3NeT is an underwater Cherenkov neutrino telescope being deployed in the Mediterranean Sea. The internship combined a literature review of the experiment with the design of a simulation tool for the detector, developed independently in Python and C++. The code was deposited on GitHub. The work confirmed an early intuition: that I want to do research, and that I am at home in the back-and-forth between physical reasoning and the computational tools that make it testable.\n\nKM3NeT collaboration ↗\n\n\n\n\nCosmic Muon Tomography, Monte Carlo Simulation Academic project\n\n\nIndependent project · C++ · third-year (L3) · 2025\n\nCosmic muons, secondary particles produced when high-energy cosmic rays interact with the atmosphere, penetrate dense materials and can be used to probe their interior. This third-year (L3) project implements a Monte Carlo simulator of the cosmic muon flux (angular modelling and trajectory generation), with a simplified exponential treatment of absorption through different materials. I then studied the response of a multi-plane detection system (geometry, angular resolution, propagation of uncertainties) and analysed the angular distributions to identify variations of density.\n\nGitHub ↗\n\n\n\n\nLennard-Jones Molecular Dynamics - A 3D Classical MD Code Academic project\n\n\nIndependent project · Python (NumPy) · third-year (L3) · 2024 – 2025\n\nA vectorised three-dimensional molecular-dynamics simulator for a Lennard-Jones fluid, written in pure NumPy and refactored from the original L3 numerical-physics report into a small but production-grade Python package. The integrator is velocity-Verlet (symplectic, second-order); the potential is force-shifted at rc = 2.5 σ so that both energy and force vanish continuously at the cutoff; periodic boundary conditions use the minimum-image convention; pair interactions are pre-screened by a Verlet neighbour list with skin buffer, with an O(N) linked-cell backend that auto-engages at large N. Equilibration is driven by a Berendsen thermostat, after which production runs in NVE. The code measures the standard equilibrium and dynamical observables, radial distribution function g(r), static structure factor S(k), mean-squared displacement and self-diffusion coefficient D, virial pressure and compressibility factor Z, Maxwell–Boltzmann velocity distribution, and includes long-range tail corrections, energy-drift diagnostics and a (ρ, T) phase-diagram sweep CLI. The accompanying report covers the physics derivations, methodological choices, and the gas / liquid / solid phase exploration.\n\nGitHub ↗\n\n\n\n\nNext-Generation Gravitational-Wave Detectors : A Review Article\n\n\nCo-authored review · scientific communication project · 2024 – 2025\n\nCo-authored short review article tracing the path from the current 2G ground-based gravitational-wave network (LIGO, Virgo, KAGRA) to the planned 3G observatories (Einstein Telescope, Cosmic Explorer). The piece covers the physics of interferometric detection, principal noise sources and mitigation strategies, and the scientific case for next-generation sensitivity, from binary merger populations to early-universe stochastic backgrounds. Produced as part of a complete simulated peer-review exercise, the article was graded 17.4 / 20 and ranked 2 / 53 in the cohort. Preprint forthcoming.\n\nPreprint (coming soon)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "📄 A full PDF version of this CV is available for download. Download PDF ↗ (PDF to be added in assets/)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n2025 – present\n\n\nM.Sc. Fundamental Physics : Cosmology track\n\nUniversité Claude Bernard Lyon 1\n\n\nSpecialisation: Universe and Fundamental Interactions.\n\n\n\n\n\n2022 – 2025\n\n\nLicence de Physique fondamentale, Mention Assez Bien\n\nUniversité de Strasbourg\n\n\nOptional courses: Astrophysics (L2), Formation and evolution of galaxies (L3).\n\n\n\n\n\n2020 – 2022\n\n\nClasses préparatoires aux grandes écoles : MPSI\n\nLycée privé ORT, Strasbourg\n\n\nMathematics, physics, engineering sciences.\n\n\n\n\n\n2018 – 2020\n\n\nLicence Sciences de la Vie\n\nUniversité de Strasbourg\n\n\nTwo years in life sciences before redirecting to physics."
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\n\n2026\n\n\nResearch Internship : Neutrino Cosmology\n\nDipartimento di Fisica e Astronomia “Galileo Galilei”, Università di Padova. Supervisor: Daniele Bertacca\n\n\nImpact of neutrino physical properties on cosmological observables. June – July 2026.\n\n\n\n\n\n2024\n\n\nResearch Internship : KM3NeT Simulation\n\nIPHC Strasbourg : KM3NeT Collaboration\n\n\nLiterature review and Monte Carlo simulation tool for the neutrino telescope. Independent work in Python and C++; code deposited on GitHub. Feb – Apr 2024."
+  },
+  {
+    "objectID": "cv.html#publications-preprints",
+    "href": "cv.html#publications-preprints",
+    "title": "Curriculum Vitae",
+    "section": "Publications & Preprints",
+    "text": "Publications & Preprints\n\n\n\n2024–25\n\n\nNext-Generation Gravitational-Wave Detectors: A Review\n\nCo-authored · 2G→3G detector physics (LIGO, Virgo, ET, CE)\n\n\nPreprint forthcoming"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nProgramming\n\n\nPython (NumPy, SciPy, Matplotlib, Astropy) · C++ · Bash / Linux · Git / GitHub\n\n\n\n\nMethods\n\n\nMonte Carlo simulation · Data analysis · Working familiarity with Boltzmann solvers (CLASS, CAMB) and ROOT\n\n\n\n\nLanguages\n\n\nFrench (native) · English (B2 / C1, academic) · Italian (A2, in progress)"
+  },
+  {
+    "objectID": "cv.html#activities-memberships",
+    "href": "cv.html#activities-memberships",
+    "title": "Curriculum Vitae",
+    "section": "Activities & Memberships",
+    "text": "Activities & Memberships\n\n\n\n2025 –\n\n\nEloquence workshop : Mission Culture, Université Lyon 1\n\nOngoing rhetoric workshop, festival programmed for 2026.\n\n\n\n\n\n2023 –\n\n\nMember, Société Française de Physique (SFP)\n\n\n\n\n2020\n\n\nSecond prize : French eloquence competition (terminale)\n\n\n\n\n2017 –\n\n\nPiano\n\nSeven years of practice. Repertoire toward Schumann, Brahms, Liszt, Chopin.\n\n\n\n\n\nprior\n\n\nBrazilian Jiu-Jitsu : coaching of younger practitioners"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I came to physics later than most, and by an indirect path. I began in life sciences in 2018 and spent two years there before a single L2 course, on the formation and evolution of galaxies, quietly redirected the question I had been trying to ask. What I was after, I realised, was not the structure of the living so much as the structure of the real itself, taken at the widest scale we are able to name. I switched to a preparatory class (MPSI) at Lycée privé ORT in Strasbourg, completed a Bachelor’s in Physics at Université de Strasbourg, and am now in the first year of a master’s in fundamental physics with a cosmology specialisation at Université Claude Bernard Lyon 1.\nThe detour was not wasted. Two years of life sciences left me with a lasting respect for the natural world, for how unlikely complexity is, and how easily it is undone, that I would not now want to be without. They also gave me the patience of someone who had to earn his way into the discipline he now calls his own."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research interests",
+    "text": "Research interests\nMy interests sit at the interface of cosmology and particle physics, in a region of the map where fundamental questions about the universe are still genuinely open and where the gap between what we can measure and what we can derive from first principles remains productive. I am drawn most strongly to:\n\nNeutrino cosmology : how neutrino properties (masses, hierarchy, thermal history) leave their imprint on large-scale structure and the cosmic microwave background\nAstroparticle physics : from underwater Cherenkov telescopes to gravitational-wave observatories\nThe mathematical edge of physics : the places where the formalism is doing more work than the intuition, and where the question of what counts as understanding is itself part of the science"
+  },
+  {
+    "objectID": "about.html#training-background",
+    "href": "about.html#training-background",
+    "title": "About",
+    "section": "Training & background",
+    "text": "Training & background\nIn the spring of 2024 I spent a research internship at IPHC Strasbourg with the KM3NeT collaboration, building Monte Carlo tools to simulate the detector response in Python and C++. The work was independent and deposited on GitHub; more importantly, it confirmed what the L2 course had only suggested. I want to do research.\nBefore Lyon, I prepared at Lycée privé ORT in Strasbourg (MPSI, 2020 – 2022) and then completed my Bachelor’s in Physics at Université de Strasbourg (2022 – 2025), with optional courses in astrophysics in the second year and on the formation and evolution of galaxies in the third year. I am a member of the Société Française de Physique."
+  },
+  {
+    "objectID": "about.html#in-other-words",
+    "href": "about.html#in-other-words",
+    "title": "About",
+    "section": "In other words",
+    "text": "In other words\nI have practised piano for seven years, less in recent months than I would like. My repertoire ran toward Schumann, Brahms, and Liszt; the last piece I worked on, and the one I most miss, is Chopin’s Fantaisie-Impromptu. I take rhetoric seriously, partly because I had reason to: I came second in a French eloquence competition at the end of high school, and I am currently part of the eloquence workshop run by Mission Culture at Université Lyon 1.\nI read in the history and philosophy of science alongside the technical work. I think the question of why we ask a question, of how that question came to be askable in the first place : is part of the science, not separate from it."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am happy to hear from prospective collaborators, M2 programmes, or anyone with a question about my work.\n\n\n\nAcademic email\n\n\ncorentin.mary@etu.univ-lyon1.fr\n\n\n\n\nPersonal email\n\n\ncorentin.mary.mp@gmail.com\n\n\n\n\nGitHub\n\n\ngithub.com/Corentin-phy\n\n\n\n\nAffiliation\n\n\nM1 student, Master in Fundamental Physics Universe and Fundamental Interactions track Université Claude Bernard Lyon 1, Villeurbanne, France\n\n\n\n\nNote. I am currently a master’s student and not affiliated with a research group. Please use the contact information above to reach me."
+  },
+  {
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Beyond",
+    "section": "",
+    "text": "A short page about what I do when I am not doing physics, and about the few things I read, look at, and practise that feel, from a certain angle, like they are trying to do the same work."
+  },
+  {
+    "objectID": "cv.html#academic-projects",
+    "href": "cv.html#academic-projects",
+    "title": "Curriculum Vitae",
+    "section": "Academic Projects",
+    "text": "Academic Projects\n\n\n\n2025\n\n\nCosmic Muon Tomography, Monte Carlo Simulation (C++)\n\nIndependent academic project, third year of Bachelor’s\n\n\nMonte Carlo simulator of the cosmic muon flux (angular modelling and trajectory generation), exponential absorption in different materials, multi-plane detector response (geometry, angular resolution, uncertainties), and identification of density variations from angular distributions.\n\n\n\n\n\n2024–25\n\n\nLennard-Jones Molecular Dynamics : 3D Classical MD Code (Python / NumPy)\n\nIndependent academic project, third year of Bachelor’s\n\n\nVectorised three-dimensional molecular-dynamics simulator for a Lennard-Jones fluid: velocity-Verlet integrator, Berendsen thermostat, force-shifted potential, periodic boundary conditions, Verlet neighbour list with linked-cell O(N) backend, exploration of the (ρ, T) phase diagram, and full statistical-mechanics observables (g(r), S(k), MSD, D, Maxwell–Boltzmann, Z). Refactored into an installable, tested Python package.\n\n\n\n\n\n2024–25\n\n\nNext-Generation Gravitational-Wave Detectors : Co-authored Review\n\nScientific communication project · simulated peer-review process\n\n\nShort review article on 2G→3G interferometric detectors and accompanying outreach material. Final mark 17.4 / 20, ranked 2nd of 53 in the cohort. Preprint forthcoming."
+  },
+  {
+    "objectID": "cv.html#other-experience",
+    "href": "cv.html#other-experience",
+    "title": "Curriculum Vitae",
+    "section": "Other Experience",
+    "text": "Other Experience\n\n\n\nSummer 2020\n\n\nSales associate : Super U, Fessenheim\n\nCustomer service and team work; everyday lessons in organisation and time management."
+  },
+  {
+    "objectID": "personal.html#at-the-keyboard",
+    "href": "personal.html#at-the-keyboard",
+    "title": "Beyond",
+    "section": "At the keyboard",
+    "text": "At the keyboard\nI have practised piano for seven years, less in recent months than I would like. My repertoire ran toward the German Romantics : Schumann, Brahms, Liszt and Chopin; the last piece I worked on, and the one I most miss, is Chopin’s Fantaisie-Impromptu. I do not claim a high level. I claim only that I know what it is to spend a long time on a small phrase until something that was opaque becomes, briefly, transparent. It is the same patience I try to bring to a derivation that refuses, at first, to settle."
+  },
+  {
+    "objectID": "personal.html#in-front-of-a-painting",
+    "href": "personal.html#in-front-of-a-painting",
+    "title": "Beyond",
+    "section": "In front of a painting",
+    "text": "In front of a painting\nI look at painting carefully. Two painters I keep returning to are Henri Matisse, for what colour can do once it stops describing things and begins to stand for them, and František Kupka, whose Autour d’un point, a slow circular composition built up over nearly two decades, feels to me like a cosmology in its own right, an image of how concentric structures can hold a centre that is itself empty. I do not think this is a coincidence. The early twentieth century discovered, in physics and in painting at almost the same moment, that the rules were stranger than anyone had imagined; and I find it useful, when the equations get hard, to remember that the people who first wrote them were also the people who first saw their world this way.\nI have a softer spot than I would have predicted for the late Impressionists and early Modernists — Vuillard, Bonnard, Hammershøi — for the way they make a quiet domestic room hold as much weight as a battle scene. Restraint, in painting as in writing, is its own kind of statement."
+  },
+  {
+    "objectID": "personal.html#in-words-in-public",
+    "href": "personal.html#in-words-in-public",
+    "title": "Beyond",
+    "section": "In words, in public",
+    "text": "In words, in public\nI take rhetoric seriously, partly because I had reason to. I came second in a French national eloquence competition at the end of high school (2020), and since the start of M1 I have been part of the eloquence workshop run by Mission Culture at Université Lyon 1, with a festival programmed for spring 2026. The discipline appeals to me for the same reason cosmology does : both demand that you say something true about something difficult without losing the listener."
+  },
+  {
+    "objectID": "personal.html#on-the-mat",
+    "href": "personal.html#on-the-mat",
+    "title": "Beyond",
+    "section": "On the mat",
+    "text": "On the mat\nI have practised self-defense (Brazilian jiu-jitsu) for several years, mostly as a student. On a handful of occasions I have helped guide younger members through warm-ups or drills, but I would not describe myself as a coach; the role taught me more than it transmitted. What I take from the discipline is technical rather than martial : the body learns by repetition, by adjustment, by slowing down. It is the same loop as the keyboard, and the same loop, in the end, as the desk."
+  },
+  {
+    "objectID": "personal.html#on-the-page",
+    "href": "personal.html#on-the-page",
+    "title": "Beyond",
+    "section": "On the page",
+    "text": "On the page\nI read in the history and philosophy of science alongside the technical work. The pages I underline most often are those that take seriously the question of how a question came to be askable in the first place : what changes, in a community of practice, before a problem can even be posed. I think this is part of the science, not separate from it, and I think it is one of the things that makes the work worth doing.\nI am also slowly learning Italian, partly with Padova in mind, partly because the language seems to me to carry an unusual amount of physics history in its everyday vocabulary."
+  },
+  {
+    "objectID": "personal.html#memberships",
+    "href": "personal.html#memberships",
+    "title": "Beyond",
+    "section": "Memberships",
+    "text": "Memberships\nI am a member of the Société Française de Physique (since 2023).\n\nThis page will grow over time. For now, it is an introduction."
+  }
+]

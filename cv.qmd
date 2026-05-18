@@ -1,0 +1,193 @@
+---
+title: "Curriculum Vitae"
+toc: false
+---
+
+<div class="cv-download-banner">
+  📄 A full PDF version of this CV is available for download.
+  <a href="assets/cv-corentin-mary.pdf" target="_blank">Download PDF ↗</a>
+</div>
+
+## Education
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">2025 – present</div>
+<div class="cv-entry__content">
+  <strong>M.Sc. Fundamental Physics : Cosmology track</strong>
+  <div class="cv-institution">Université Claude Bernard Lyon 1</div>
+  <div class="cv-detail">Specialisation: Universe and Fundamental Interactions.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2022 – 2025</div>
+<div class="cv-entry__content">
+  <strong>Licence de Physique fondamentale, Mention <em>Assez Bien</em></strong>
+  <div class="cv-institution">Université de Strasbourg</div>
+  <div class="cv-detail">Optional courses: Astrophysics (L2), Formation and evolution of galaxies (L3).</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2020 – 2022</div>
+<div class="cv-entry__content">
+  <strong>Classes préparatoires aux grandes écoles : MPSI</strong>
+  <div class="cv-institution">Lycée privé ORT, Strasbourg</div>
+  <div class="cv-detail">Mathematics, physics, engineering sciences.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2018 – 2020</div>
+<div class="cv-entry__content">
+  <strong>Licence Sciences de la Vie</strong>
+  <div class="cv-institution">Université de Strasbourg</div>
+  <div class="cv-detail">Two years in life sciences before redirecting to physics.</div>
+</div>
+</div>
+
+</div>
+
+## Research Experience
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">2026</div>
+<div class="cv-entry__content">
+  <strong>Research Internship : Neutrino Cosmology</strong>
+  <div class="cv-institution">Dipartimento di Fisica e Astronomia "Galileo Galilei", Università di Padova. Supervisors: <a href="https://www.dfa.unipd.it/en/live-people/detail/index.php?key=BF190DDCD6865DB534188270BD321288" target="_blank">Daniele Bertacca</a> & <a href="https://www.unipd.it/de/contatti/nicola.bartolo" target="_blank">Nicola Bartolo</a></div>
+  <div class="cv-detail">Impact of neutrino physical properties on cosmological observables. June – July 2026.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2024</div>
+<div class="cv-entry__content">
+  <strong>Research Internship : KM3NeT Simulation</strong>
+  <div class="cv-institution">IPHC Strasbourg : KM3NeT Collaboration</div>
+  <div class="cv-detail">Literature review and Monte Carlo simulation tool for the neutrino telescope. Independent work in Python and C++; code deposited on GitHub. Feb – Apr 2024.</div>
+</div>
+</div>
+
+</div>
+
+## Academic Projects
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">2024 – 25</div>
+<div class="cv-entry__content">
+  <strong>Cosmic Muon Tomography, Monte Carlo Simulation (C++)</strong>
+  <div class="cv-institution">Independent academic project, third year of Bachelor's (L3)</div>
+  <div class="cv-detail">Monte Carlo simulator of the cosmic muon flux (angular modelling and trajectory generation), exponential absorption in different materials, multi-plane detector response (geometry, angular resolution, uncertainties), and identification of density variations from angular distributions.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2025 – 26</div>
+<div class="cv-entry__content">
+  <strong>Lennard-Jones Molecular Dynamics : 3D Classical MD Code (Python / NumPy)</strong>
+  <div class="cv-institution">Independent academic project, first year of Master's (M1)</div>
+  <div class="cv-detail">Vectorised three-dimensional molecular-dynamics simulator for a Lennard-Jones fluid: velocity-Verlet integrator, Berendsen thermostat, force-shifted potential, periodic boundary conditions, Verlet neighbour list with linked-cell <em>O(N)</em> backend, exploration of the (ρ, T) phase diagram, and full statistical-mechanics observables (g(r), S(k), MSD, D, Maxwell–Boltzmann, Z). Refactored into an installable, tested Python package.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2025 – 26</div>
+<div class="cv-entry__content">
+  <strong>Next-Generation Gravitational-Wave Detectors : Co-authored Review</strong>
+  <div class="cv-institution">Scientific communication project · simulated peer-review process · M1</div>
+  <div class="cv-detail">Short review article on 2G→3G interferometric detectors and accompanying outreach material. Final mark <strong>17.4 / 20</strong>, ranked <strong>2nd of 53</strong> in the cohort. Preprint forthcoming.</div>
+</div>
+</div>
+
+</div>
+
+## Skills
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">Programming</div>
+<div class="cv-entry__content">
+  <strong>Python</strong> (NumPy, SciPy, Matplotlib, Astropy) · <strong>C++</strong> · Bash / Linux · Git / GitHub
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">Methods</div>
+<div class="cv-entry__content">
+  Monte Carlo simulation · Data analysis · Working familiarity with Boltzmann solvers (CLASS, CAMB) and ROOT
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">Languages</div>
+<div class="cv-entry__content">
+  French (native) · English (B2 / C1, academic) · Italian (A2, in progress)
+</div>
+</div>
+
+</div>
+
+## Activities & Memberships
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">2025 –</div>
+<div class="cv-entry__content">
+  <strong>Eloquence workshop : Mission Culture, Université Lyon 1</strong>
+  <div class="cv-detail">Ongoing rhetoric workshop, festival programmed for 2026.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2023 –</div>
+<div class="cv-entry__content">
+  <strong>Member, Société Française de Physique (SFP)</strong>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2020</div>
+<div class="cv-entry__content">
+  <strong>Second prize : French eloquence competition (terminale)</strong>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">2017 –</div>
+<div class="cv-entry__content">
+  <strong>Piano</strong>
+  <div class="cv-detail">Seven years of practice. Repertoire toward Schumann, Brahms, Liszt, Chopin.</div>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__date">prior</div>
+<div class="cv-entry__content">
+  <strong>Self-defense (Brazilian jiu-jitsu)</strong>
+  <div class="cv-detail">Long-time practitioner; occasionally helped guide younger members during training sessions.</div>
+</div>
+</div>
+
+</div>
+
+## Other Experience
+
+<div class="cv-section">
+
+<div class="cv-entry">
+<div class="cv-entry__date">Summer 2020</div>
+<div class="cv-entry__content">
+  <strong>Sales associate : Super U, Fessenheim</strong>
+  <div class="cv-detail">Customer service and team work; everyday lessons in organisation and time management.</div>
+</div>
+</div>
+
+</div>

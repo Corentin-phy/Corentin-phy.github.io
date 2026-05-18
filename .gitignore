@@ -1,0 +1,7 @@
+/.quarto/
+*_files/
+# Don't ignore docs/ — GitHub Pages reads from there
+# If you use gh-pages branch instead, uncomment:
+# /docs
+
+**/*.quarto_ipynb

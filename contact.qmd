@@ -1,0 +1,38 @@
+---
+title: "Contact"
+toc: false
+---
+
+I am happy to hear from prospective collaborators, M2 programmes, or anyone with a question about my work.
+
+<div class="contact-grid">
+
+<div class="contact-item">
+<div class="contact-item__label">Academic email</div>
+<div class="contact-item__value"><a href="mailto:corentin.mary@etu.univ-lyon1.fr">corentin.mary@etu.univ-lyon1.fr</a></div>
+</div>
+
+<div class="contact-item">
+<div class="contact-item__label">Personal email</div>
+<div class="contact-item__value"><a href="mailto:corentin.mary.mp@gmail.com">corentin.mary.mp@gmail.com</a></div>
+</div>
+
+<div class="contact-item">
+<div class="contact-item__label">GitHub</div>
+<div class="contact-item__value"><a href="https://github.com/Corentin-phy" target="_blank">github.com/Corentin-phy</a></div>
+</div>
+
+<div class="contact-item">
+<div class="contact-item__label">Affiliation</div>
+<div class="contact-item__value" style="font-size:0.95rem; line-height:1.5;">
+  M1 student, Master in Fundamental Physics<br>
+  Universe and Fundamental Interactions track<br>
+  Université Claude Bernard Lyon 1, Villeurbanne, France
+</div>
+</div>
+
+</div>
+
+---
+
+**Note.** I am currently a master's student and not affiliated with a research group. Please use the contact information above to reach me.

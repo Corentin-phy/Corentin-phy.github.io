@@ -1,0 +1,307 @@
+/* ─── HOME PAGE ─────────────────────────────────────────────────────────────── */
+
+.home-hero {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.home-hero h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 0.25em;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+}
+
+.home-hero .ornament {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 0.5rem;
+}
+
+.home-hero .ornament span:nth-child(odd) {
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  background: #1f4794;
+}
+
+.home-hero .ornament span:nth-child(even) {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #1f4794;
+}
+
+.home-hero .affiliation {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: #1f4794;
+  margin-bottom: 1.6rem;
+}
+
+.home-hero .interests {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.15rem;
+  line-height: 1.78;
+  color: #1d1f2c;
+  margin-bottom: 1.8rem;
+}
+
+/* Currently / Applying lines */
+.home-status p {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  margin: 0 0 0.4rem;
+  color: #1d1f2c;
+}
+
+.home-status .label {
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: #1f4794;
+}
+
+/* ─── Social links ───────────────────────────────────────────────────────────── */
+
+.social-links {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.social-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: #4e483a;
+  border-bottom: none !important;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid #ddd6c4;
+  border-radius: 3px;
+  background: #efe8d8;
+  transition: all 0.18s ease;
+}
+
+.social-links a:hover {
+  color: #1f4794;
+  border-color: #1f4794;
+  background: #ebe5d3;
+}
+
+/* ─── RESEARCH CARDS ─────────────────────────────────────────────────────────── */
+
+.research-entry {
+  margin-bottom: 2.8rem;
+  padding-bottom: 2.8rem;
+  border-bottom: 1px solid #ddd6c4;
+}
+
+.research-entry:last-of-type {
+  border-bottom: none;
+}
+
+.research-entry__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.research-entry__title {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1d1f2c;
+}
+
+.research-entry__tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #1f4794;
+  padding: 0.15em 0.6em;
+  border-radius: 2px;
+}
+
+.research-entry__tag.upcoming {
+  background: #b67e2a;
+}
+
+.research-entry__tag.project {
+  background: #6a7a4f;
+}
+
+.research-entry__meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: #6e6755;
+  margin-bottom: 0.7rem;
+}
+
+.research-entry p {
+  margin-bottom: 0.6rem;
+}
+
+.research-entry .entry-links {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.research-entry .entry-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+/* ─── CV PAGE ────────────────────────────────────────────────────────────────── */
+
+.cv-section {
+  margin-bottom: 2.5rem;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  align-items: start;
+}
+
+.cv-entry__date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: #6e6755;
+  padding-top: 0.12rem;
+  text-align: right;
+}
+
+.cv-entry__content strong {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.cv-entry__content .cv-institution {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: #5a5448;
+  margin-top: 0.1rem;
+}
+
+.cv-entry__content .cv-detail {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.98rem;
+  color: #4e483a;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+.cv-download-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #efe8d8;
+  border: 1px solid #ddd6c4;
+  border-radius: 4px;
+  padding: 1rem 1.3rem;
+  margin-bottom: 2.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: #4e483a;
+}
+
+.cv-download-banner a {
+  font-weight: 500;
+  color: #1f4794;
+}
+
+/* ─── ABOUT PAGE ─────────────────────────────────────────────────────────────── */
+
+.about-intro {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.22rem;
+  line-height: 1.9;
+  color: #2a2c3a;
+  margin-bottom: 2rem;
+}
+
+/* ─── CONTACT PAGE ───────────────────────────────────────────────────────────── */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.contact-item {
+  background: #efe8d8;
+  border: 1px solid #ddd6c4;
+  border-radius: 4px;
+  padding: 1.2rem 1.4rem;
+}
+
+.contact-item__label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6e6755;
+  margin-bottom: 0.3rem;
+}
+
+.contact-item__value {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.08rem;
+}
+
+/* ─── PERSONAL PAGE ──────────────────────────────────────────────────────────── */
+
+.personal-lede {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.22rem;
+  font-style: italic;
+  color: #4e483a;
+  margin-bottom: 2rem;
+  border-left: 2px solid #1f4794;
+  padding-left: 1.2rem;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .home-hero h1 {
+    font-size: 2rem;
+  }
+
+  .cv-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-entry__date {
+    text-align: left;
+    color: #1f4794;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

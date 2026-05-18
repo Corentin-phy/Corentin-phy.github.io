@@ -1,0 +1,79 @@
+---
+title: "Research & Projects"
+toc: false
+---
+
+A record of my research activities so far : formal internships, independent numerical projects, and a co-authored review.
+
+---
+
+<div class="research-entry">
+<div class="research-entry__header">
+  <span class="research-entry__title">Impact of Neutrino Physical Properties on Cosmological Observables</span>
+  <span class="research-entry__tag upcoming">Upcoming</span>
+</div>
+<div class="research-entry__meta">Dipartimento di Fisica e Astronomia "Galileo Galilei", Università di Padova · June – July 2026 · Supervisors: Daniele Bertacca & Nicola Bartolo</div>
+
+Neutrinos are massive, we know this from oscillation experiments, but their absolute mass scale and hierarchy remain open. This M1 internship will investigate how neutrino physical properties (masses, number of effective species, thermal history) leave observable signatures in the large-scale structure of the universe and in the CMB power spectra. The work sits within the framework of cosmological perturbation theory and Boltzmann codes, in collaboration with the group of Prof. Bertacca and Prof. Bartolo at the Dipartimento di Fisica e Astronomia (DFA), Università di Padova.
+
+<div class="entry-links">
+  <a href="https://www.dfa.unipd.it/en/live-people/detail/index.php?key=BF190DDCD6865DB534188270BD321288" target="_blank">D. Bertacca ↗</a>
+  <a href="https://www.unipd.it/de/contatti/nicola.bartolo" target="_blank">N. Bartolo ↗</a>
+</div>
+</div>
+
+<div class="research-entry">
+<div class="research-entry__header">
+  <span class="research-entry__title">KM3NeT Detector Simulation</span>
+  <span class="research-entry__tag">Internship</span>
+</div>
+<div class="research-entry__meta">IPHC Strasbourg · February – April 2024</div>
+
+KM3NeT is an underwater Cherenkov neutrino telescope being deployed in the Mediterranean Sea. The internship combined a literature review of the experiment with the design of a simulation tool for the detector, developed independently in Python and C++. The code was deposited on GitHub. The work confirmed an early intuition: that I want to do research, and that I am at home in the back-and-forth between physical reasoning and the computational tools that make it testable.
+
+<div class="entry-links">
+  <a href="https://www.km3net.org/" target="_blank">KM3NeT collaboration ↗</a>
+</div>
+</div>
+
+<div class="research-entry">
+<div class="research-entry__header">
+  <span class="research-entry__title">Cosmic Muon Tomography, Monte Carlo Simulation</span>
+  <span class="research-entry__tag project">Academic project</span>
+</div>
+<div class="research-entry__meta">Independent project · C++ · third-year (L3) · 2024 – 2025</div>
+
+Cosmic muons, secondary particles produced when high-energy cosmic rays interact with the atmosphere, penetrate dense materials and can be used to probe their interior. This third-year (L3) project implements a Monte Carlo simulator of the cosmic muon flux (angular modelling and trajectory generation), with a simplified exponential treatment of absorption through different materials. I then studied the response of a multi-plane detection system (geometry, angular resolution, propagation of uncertainties) and analysed the angular distributions to identify variations of density.
+
+<div class="entry-links">
+  <a href="https://github.com/Corentin-phy" target="_blank">GitHub ↗</a>
+</div>
+</div>
+
+<div class="research-entry">
+<div class="research-entry__header">
+  <span class="research-entry__title">Lennard-Jones Molecular Dynamics - A 3D Classical MD Code</span>
+  <span class="research-entry__tag project">Academic project</span>
+</div>
+<div class="research-entry__meta">Independent project · Python (NumPy) · M1 · 2025 – 2026</div>
+
+A vectorised three-dimensional molecular-dynamics simulator for a Lennard-Jones fluid, written in pure NumPy and developed as an M1 numerical-physics project, refactored into a small but production-grade Python package. The integrator is velocity-Verlet (symplectic, second-order); the potential is force-shifted at *r*<sub>c</sub> = 2.5 σ so that both energy and force vanish continuously at the cutoff; periodic boundary conditions use the minimum-image convention; pair interactions are pre-screened by a Verlet neighbour list with skin buffer, with an *O(N)* linked-cell backend that auto-engages at large *N*. Equilibration is driven by a Berendsen thermostat, after which production runs in NVE. The code measures the standard equilibrium and dynamical observables, radial distribution function *g(r)*, static structure factor *S(k)*, mean-squared displacement and self-diffusion coefficient *D*, virial pressure and compressibility factor *Z*, Maxwell–Boltzmann velocity distribution, and includes long-range tail corrections, energy-drift diagnostics and a (ρ, T) phase-diagram sweep CLI. The accompanying report covers the physics derivations, methodological choices, and the gas / liquid / solid phase exploration.
+
+<div class="entry-links">
+  <a href="https://github.com/Corentin-phy" target="_blank">GitHub ↗</a>
+</div>
+</div>
+
+<div class="research-entry">
+<div class="research-entry__header">
+  <span class="research-entry__title">Next-Generation Gravitational-Wave Detectors : A Review</span>
+  <span class="research-entry__tag">Article</span>
+</div>
+<div class="research-entry__meta">Co-authored review · scientific communication project · M1 · 2025 – 2026</div>
+
+Co-authored short review article tracing the path from the current 2G ground-based gravitational-wave network (LIGO, Virgo, KAGRA) to the planned 3G observatories (Einstein Telescope, Cosmic Explorer). The piece covers the physics of interferometric detection, principal noise sources and mitigation strategies, and the scientific case for next-generation sensitivity, from binary merger populations to early-universe stochastic backgrounds. Produced as part of a complete simulated peer-review exercise, the article was graded **17.4 / 20** and ranked **2 / 53** in the cohort. Preprint forthcoming.
+
+<div class="entry-links">
+  <a href="#">Preprint (coming soon)</a>
+</div>
+</div>
