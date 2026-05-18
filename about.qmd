@@ -4,27 +4,19 @@ toc: false
 ---
 
 <p class="about-intro">
-I came to physics later than most, and by an indirect path. I began in life sciences at Université de Strasbourg in 2018 and spent two years there before realising that what I was after was not the structure of the living so much as the structure of the real itself, taken at the widest scale we are able to name. I switched to a preparatory class (MPSI) at Lycée privé ORT in Strasbourg in 2020, completed a Bachelor's in Physics at Université de Strasbourg (2022 – 2025), and am now in the first year of a master's in fundamental physics with a cosmology specialisation at Université Claude Bernard Lyon 1.
+I came to physics by an indirect path. I began in life sciences at Université de Strasbourg in 2018 and spent two years there before switching to a preparatory class (MPSI) at Lycée privé ORT in Strasbourg in 2020. I completed a Bachelor's in Physics at Université de Strasbourg (2022 – 2025), and am now in the first year of a master's in fundamental physics with a cosmology specialisation at Université Claude Bernard Lyon 1.
 </p>
-
-The detour was not wasted. Two years of life sciences left me with a lasting respect for the natural world, for how unlikely complexity is, and how easily it is undone, that I would not now want to be without. They also gave me the patience of someone who had to earn his way into the discipline he now calls his own.
 
 ## Research interests
 
-My interests sit at the interface of cosmology and particle physics, in a region of the map where fundamental questions about the universe are still genuinely open and where the gap between what we can measure and what we can derive from first principles remains productive. I am drawn most strongly to:
+My interests sit at the interface of cosmology and particle physics. I am drawn most strongly to:
 
 - **Neutrino cosmology** : how neutrino properties (masses, hierarchy, thermal history) leave their imprint on large-scale structure and the cosmic microwave background
 - **Astroparticle physics** : from underwater Cherenkov telescopes to gravitational-wave observatories
-- **The mathematical edge of physics** : the places where the formalism is doing more work than the intuition, and where the question of what counts as understanding is itself part of the science
+- **The mathematical edge of physics** : the places where the formalism is doing more work than the intuition
 
 ## Training & background
 
-In the spring of 2024 I spent a research internship at IPHC Strasbourg with the [KM3NeT](https://www.km3net.org/) collaboration, building Monte Carlo tools to simulate the detector response in Python and C++. The work was independent and deposited on GitHub; more importantly, it confirmed what I had begun to suspect. I want to do research.
+In the spring of 2024 I spent a research internship at IPHC Strasbourg with the [KM3NeT](https://www.km3net.org/) collaboration, building Monte Carlo tools to simulate the detector response in Python and C++. The work was independent and deposited on GitHub.
 
 Before Lyon, I prepared at Lycée privé ORT in Strasbourg (MPSI, 2020 – 2022) and then completed my Bachelor's in Physics at Université de Strasbourg (2022 – 2025), with optional courses in astrophysics in the second year and on the formation and evolution of galaxies in the third year. I am a member of the [Société Française de Physique](https://www.sfpnet.fr/).
-
-## In other words
-
-I have practised piano for seven years, less in recent months than I would like. My repertoire ran toward Schumann, Brahms, and Liszt; the last piece I worked on, and the one I most miss, is Chopin's *Fantaisie-Impromptu*. I take rhetoric seriously, partly because I had reason to: I came second in a French eloquence competition at the end of high school, and I am currently part of the eloquence workshop run by Mission Culture at Université Lyon 1.
-
-I read in the history and philosophy of science alongside the technical work. I think the question of *why* we ask a question, of how that question came to be askable in the first place : is part of the science, not separate from it.

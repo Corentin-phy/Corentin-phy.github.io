@@ -13,7 +13,7 @@ toc: false
 <p class="affiliation">M1 Fundamental Physics · Cosmology track · Université Claude Bernard Lyon 1</p>
 
 <p class="interests">
-I work on cosmology and subatomic physics : neutrinos, gravitational waves, and the physics of the early universe. I came to physics through a longer route than most, and that detour has shaped what I look for : questions about the deep structure of the real, approached at the largest scale we are able to name.
+I work on cosmology and subatomic physics : neutrinos, gravitational waves, and the physics of the early universe.
 </p>
 
 <div class="social-links">
